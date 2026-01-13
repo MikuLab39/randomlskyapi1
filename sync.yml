@@ -4,7 +4,7 @@ import os
 
 # 1. 配置信息从 GitHub Secrets 读取
 # 兰空图床相册接口地址
-LSKY_API = "https://image.mikulab.com/api/v1/images?album_id=5"
+LSKY_API = "https://img.mikulab.com/api/v1/images?album_id=5"
 LSKY_TOKEN = os.getenv("LSKY_TOKEN")
 
 # Cloudflare 配置

@@ -3,7 +3,7 @@ import json
 import os
 
 # 配置信息（建议通过环境变量读取）
-LSKY_API = "https://image.mikulab.com/api/v1/images?album_id=5"
+LSKY_API = "https://img.mikulab.com/api/v1/images?album_id=5"
 LSKY_TOKEN = os.getenv("LSKY_TOKEN")
 CF_ACCOUNT_ID = os.getenv("CF_ACCOUNT_ID")
 CF_KV_ID = os.getenv("CF_KV_ID")
@@ -31,4 +31,5 @@ def sync():
             print("Sync Success!")
 
 if __name__ == "__main__":
+
     sync()

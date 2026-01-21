@@ -6,8 +6,8 @@ import os
 LSKY_API = "https://img.mikulab.com/api/v1/images?album_id=6"
 LSKY_TOKEN = os.getenv("LSKY_TOKEN")
 CF_ACCOUNT_ID = os.getenv("CF_ACCOUNT_ID")
-CF_KV_ID = os.getenv("CF_KV_ID")
-CF_API_TOKEN = os.getenv("CF_API_TOKEN")
+CF_KV_ID = os.getenv("CF_KV_ID_ME")
+CF_API_TOKEN = os.getenv("CF_API_TOKEN_ME")
 
 def sync():
     # 1. 从兰空图床获取图片
@@ -33,4 +33,5 @@ def sync():
 if __name__ == "__main__":
 
     sync()
+
 

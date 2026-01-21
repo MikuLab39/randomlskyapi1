@@ -24,6 +24,6 @@ jobs:
         env:
           LSKY_TOKEN: ${{ secrets.LSKY_TOKEN }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          CF_KV_ID: ${{ secrets.CF_KV_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_KV_ID: ${{ secrets.CF_KV_ID_ME }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN_ME }}
         run: python sync.py

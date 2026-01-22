@@ -3,7 +3,7 @@ import json
 import os
 
 # --- 唯一需要手动维护的地方：在列表里增加相册 ID ---
-ALBUM_IDS = [5, 6, 7, 8] 
+ALBUM_IDS = [3, 4, 5, 6, 7, 8] 
 
 LSKY_TOKEN = os.getenv("LSKY_TOKEN")
 CF_ACCOUNT_ID = os.getenv("CF_ACCOUNT_ID")
@@ -38,3 +38,4 @@ def sync():
 
 if __name__ == "__main__":
     sync()
+

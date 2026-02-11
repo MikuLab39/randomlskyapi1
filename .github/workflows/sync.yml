@@ -2,7 +2,7 @@ name: Hourly Sync API Cache
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时的第 0 分钟执行一次
+    - cron: '0 0 * * *'  # 每小时的第 0 分钟执行一次
   workflow_dispatch:      # 允许你在 GitHub 页面上点击按钮手动执行
 
 jobs:
